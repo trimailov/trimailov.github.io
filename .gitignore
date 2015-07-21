@@ -95,6 +95,3 @@ target/
 Session.vim
 .netrwhist
 *~
-
-### Pelican ###
-output/**
