@@ -1,0 +1,46 @@
+body {
+  margin: 40px auto;
+  max-width: 650px;
+  line-height: 1.6;
+  font-size: 18px;
+  font-family: Garamond, serif;
+  color: #444;
+  background-color: #FDFDFD;
+  padding: 0 10px;
+}
+
+h1,h2,h3 {
+  line-height: 1.2;
+}
+
+a {
+  text-decoration: none;
+  color: #444;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.article-title {
+  font-size: 125%;
+}
+
+.article-date {
+  color: #888;
+}
+
+.site-title {
+  text-align: left;
+  float: left;
+}
+
+.page {
+  text-align: right;
+  float: right;
+  font-weight: normal;
+}
+
+hr {
+  clear: both;
+}
