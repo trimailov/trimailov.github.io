@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ SITENAME }}</title>
+    <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/main.css">
+  </head>
+  <body>
+    {% block body_header %}
+    <header id="site-name">
+      <h1 class="site-title"><a href="/">{{ SITENAME }}</a></h1>
+      {% for page in PAGES %}
+        <h3 class="page"><a href="{{ SITEURL }}/{{ page.url }}">{{ page.slug }}</a></h3>
+      {% endfor %}
+    </header>
+    {% endblock %}
+
+    <hr>
+
+    {% block content %}
+    {% endblock %}
+  </body>
+</html>
