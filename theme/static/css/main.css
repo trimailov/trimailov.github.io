@@ -1,6 +1,6 @@
 body {
   margin: 40px auto;
-  max-width: 650px;
+  max-width: 800px;
   line-height: 1.6;
   font-size: 18px;
   font-family: Garamond, serif;
@@ -34,6 +34,12 @@ a {
   color: #888;
 }
 
+.highlight {
+  border-radius: 10px;
+  padding: 10px;
+  overflow: scroll;
+}
+
 .site-title {
   text-align: left;
   float: left;
@@ -47,4 +53,9 @@ a {
 
 hr {
   clear: both;
+}
+
+pre {
+  line-height: 1.1;
+  margin: 0;
 }
