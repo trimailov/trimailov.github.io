@@ -1,0 +1,2 @@
+make stopserver
+make devserver
