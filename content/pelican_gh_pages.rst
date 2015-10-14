@@ -66,6 +66,8 @@ HTML meta redirect way
 
 There will be no 'output' repositories. Your 'source' will be your main repository (named e.g. ``trimailov.github.io``) where 'fake' ``index.html`` file will be placed, which will redirect to your output directory's ``index.html``.
 
+I have not tried this method, and it may produce some url linking problems, and possibly your website will have ``/output`` appended to your domain.
+
 .. code-block:: html
 
     <html>
