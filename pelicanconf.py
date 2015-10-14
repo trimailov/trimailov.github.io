@@ -35,3 +35,7 @@ DEFAULT_PAGINATION = False
 # RELATIVE_URLS = True
 
 THEME = 'theme'
+
+# use journal.html template for all blog posts
+DIRECT_TEMPLATES = ['journal']
+PAGINATED_DIRECT_TEMPLATES = ['journal']

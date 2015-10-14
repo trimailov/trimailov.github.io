@@ -41,14 +41,7 @@ a {
 }
 
 .site-title {
-  text-align: left;
-  float: left;
-}
-
-.page {
-  text-align: right;
-  float: right;
-  font-weight: normal;
+  font: 1.5em bold;
 }
 
 hr {

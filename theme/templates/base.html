@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
+    {% block head %}
     <title>{{ SITENAME }}</title>
     <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/main.css">
     <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/solarized-dark.css">
     <meta charset="UTF-8">
+    {% endblock %}
   </head>
   <body>
     {% block body_header %}
     <header id="site-name">
-      <h1 class="site-title"><a href="/">{{ SITENAME }}</a></h1>
-      {% for page in PAGES %}
-        <h3 class="page"><a href="{{ SITEURL }}/{{ page.url }}">{{ page.slug }}</a></h3>
-      {% endfor %}
+      <span class="site-title"><a href="/">{{ SITENAME }}</a></span> |
+      <a href="/">works</a> |
+      <a href="/journal">journal</a>
     </header>
     {% endblock %}
 
