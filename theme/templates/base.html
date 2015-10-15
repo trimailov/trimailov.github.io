@@ -5,6 +5,7 @@
     <title>{{ SITENAME }}</title>
     <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/main.css">
     <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/solarized-dark.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <meta charset="UTF-8">
     {% endblock %}
   </head>
@@ -12,8 +13,10 @@
     {% block body_header %}
     <header id="site-name">
       <span class="site-title"><a href="/">{{ SITENAME }}</a></span> |
-      <a href="/">works</a> |
-      <a href="/journal">journal</a>
+      <a href="/"><i class="fa fa-code fa-lg"></i> works</a> |
+      <a href="/journal"><i class="fa fa-book fa-lg"></i> journal</a> |
+      <a href="https://github.com/trimailov"><i class="fa fa-github-square fa-lg"></i></a>
+      <a href="https://www.flickr.com/photos/136130575@N07/"><i class="fa fa-camera fa-lg"></i></a>
     </header>
     {% endblock %}
 
