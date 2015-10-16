@@ -3,7 +3,7 @@ body {
   max-width: 800px;
   line-height: 1.6;
   font-size: 18px;
-  font-family: Garamond, serif;
+  font-family: sans-serif;
   color: #444;
   background-color: #FDFDFD;
   padding: 0 10px;
@@ -40,8 +40,17 @@ a {
   overflow: scroll;
 }
 
-.site-title {
-  font: 1.5em bold;
+.category-button {
+  color: #057ef7;
+  padding: 5px 15px;
+  text-decoration: none;
+  border: 2px solid transparent;
+}
+
+.category-button:hover {
+  text-decoration: none;
+  border: 2px solid #057ef7;
+  border-radius: 8px;
 }
 
 hr {
