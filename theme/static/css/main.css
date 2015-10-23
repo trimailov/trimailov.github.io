@@ -67,3 +67,26 @@ pre {
   width: 100%;
   height: auto;
 }
+
+.project {
+  max-width: 500px;
+  padding: 8px;
+  border: 2px solid rgba(006, 088, 255, 0.1);
+  border-radius: 8px;
+  text-align: center;
+  margin: 8px 0;
+}
+
+.project:hover {
+  padding: 8px;
+  border: 2px solid rgb(006, 088, 255);
+}
+
+.project p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.project a {
+  text-decoration: none;
+}
