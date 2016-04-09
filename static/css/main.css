@@ -1,12 +1,13 @@
 body {
-  margin: 40px auto;
-  max-width: 800px;
+  margin: 0px auto;
+  max-width: 500px;
   line-height: 1.6;
   font-size: 18px;
   font-family: sans-serif;
   color: #444;
   background-color: #FDFDFD;
   padding: 0 10px;
+  text-align: center;
 }
 
 h1,h2,h3 {
@@ -15,7 +16,7 @@ h1,h2,h3 {
 
 header a {
   text-decoration: none;
-  color: #444;
+  color: #000;
 }
 
 header a:hover {
@@ -93,30 +94,26 @@ ul.navigation li {
 
 .nav-button {
   color: #057ef7;
-  padding: 5px 15px;
-  text-decoration: none;
+  padding: 0px 15px;
   text-align: center;
   font-size: 13px;
-  border: 2px solid transparent;
 }
 
 .nav-button:hover {
   text-decoration: none;
-  border: 2px solid #057ef7;
-  border-radius: 8px;
 }
 
 /* PROJECT LIST */
 .project-img {
   width: auto;
-  max-width: 500px;
   height: auto;
+  max-width: 100%;
 }
 
 .project {
   max-width: 500px;
   padding: 8px;
-  border: 2px solid rgba(006, 088, 255, 0.1);
+  border: 2px solid #CCC;
   border-radius: 8px;
   text-align: center;
   margin: 8px 0;
@@ -124,7 +121,7 @@ ul.navigation li {
 
 .project:hover {
   padding: 8px;
-  border: 2px solid rgb(006, 088, 255);
+  border: 2px solid #888;
 }
 
 .project p {
