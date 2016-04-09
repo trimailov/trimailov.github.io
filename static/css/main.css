@@ -50,6 +50,24 @@ pre {
 }
 
 /* NAVIGATION */
+
+/* display navigation horizontally and centered */
+div.nav-table {
+  display: table;
+  margin: 0 auto;
+}
+
+ul.navigation {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.navigation li {
+  float: left;
+}
+/* */
+
 .nav-button .nav-icon {
   background-repeat: no-repeat;
   background-size: 38px 38px;
@@ -71,14 +89,6 @@ pre {
 }
 .five-hundred-px .nav-icon {
   background-image: url("../../images/svg/500px.min.svg");
-}
-
-ul.navigation {
-  list-style-type: none;
-}
-
-ul.navigation li {
-  float: left;
 }
 
 .nav-button {
