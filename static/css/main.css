@@ -4,7 +4,6 @@ body {
   line-height: 1.6;
   font-size: 18px;
   font-family: sans-serif;
-  color: #444;
   background-color: #FDFDFD;
   padding: 0 10px;
   text-align: center;
@@ -27,27 +26,8 @@ a {
   color: #666;
 }
 
-.article-title {
-  font-size: 125%;
-}
-
-.article-date {
-  color: #888;
-}
-
-.highlight {
-  border-radius: 10px;
-  padding: 10px;
-  overflow: scroll;
-}
-
 hr {
   clear: both;
-}
-
-pre {
-  line-height: 1.1;
-  margin: 0;
 }
 
 /* NAVIGATION */
